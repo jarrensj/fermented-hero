@@ -24,8 +24,7 @@ export function ConnectedState() {
         <div className="flex flex-col w-full gap-4">
           <div className="flex flex-col gap-2 w-full">
             <button
-              className="rounded-full border border-solid border-white/20 transition-colors flex items-center justify-center bg-white/10 text-white gap-2 hover:bg-white/20 hover:cursor-pointer text-sm px-5 font-[family-name:var(--font-roobert)] w-full sm:flex-1 h-10 py-2"
-              onClick={logout}
+              className="rounded-full border border-solid border-gray-300 transition-colors flex items-center justify-center bg-red-600 text-white gap-2 hover:bg-red-700 hover:cursor-pointer text-sm px-5 font-[family-name:var(--font-roobert)] w-full sm:flex-1 h-10 py-2 font-medium"              onClick={logout}
             >
               <svg
                 className="w-4 h-4 flex-shrink-0"
